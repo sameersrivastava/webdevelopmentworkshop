@@ -1,0 +1,50 @@
+body{
+	font-family: 'Droid Sans', sans-serif;
+}
+.header{
+	color:#ffffff;
+	background:#6f5499;
+	padding: 30px 30px;
+}
+#pic-timmyturner{
+	height:300px;
+}
+.instructions{
+	color:#6f5499;
+}
+.examples{
+	color:#d44950;
+}
+.page{
+	height:760px;
+	box-shadow: 5px 5px 5px #CFCFCF;
+	border: solid 1px #000000;
+}
+#container{
+	height:400px;
+	margin: 0 auto;
+}
+.page-buttons>button{
+	margin-bottom: 10px;
+	height: 60px;
+	font-size: 1.3em;
+	background-color: #6f5499;
+	border: 1px solid #574178;
+}
+.page-buttons>button:hover{
+	background-color: #3F2F57;
+	border: 1px solid #574178;
+}
+.code-text>pre{
+	color:#2f6f9f;
+}
+.code-text>pre .text-new{
+	font-size: 1.3em;
+	color:#d44950;
+}
+.code-arrow>a{
+	color: #6f5499;
+}
+.code-arrow>a:hover{
+	color: #3F2F57;
+}

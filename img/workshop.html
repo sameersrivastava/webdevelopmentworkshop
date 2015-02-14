@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="HTML Workshop for Design For America MidWest MeetUp 2014">
+	<meta name="author" content="Sameer Srivastava">
+	<!-- <link rel="icon" href="http://designforamerica.com/wp-content/themes/DfA2011/favicon.png"> -->
+	<!-- JQuery CDN -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>HTML Workshop</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- Font Awesome CSS -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--Droid Font-->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<!-- Custom styles for this template -->
+	<link href="workshop.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row jumbotron header">
+			<div class="col-md-10">
+				<h1>HTML Workshop</h1>
+				<h3>MidWest MeetUp 2014</h3>
+				<h3>Sameer Srivastava</h3>
+			</div>
+			<img src="./img/sameer.jpg" class="img-responsive col-md-2">
+		</div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10">
+				<h1>Web</h1>
+				<div class="row row-web">
+					<img src="./img/map-internet.jpg" class="img-responsive col-md-6" alt="Map of Internet">
+					<iframe id="pic-timmyturner" src="http://www.giphy.com/embed/ZEobigiRBFc7S" class="col-md-6" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				</div>
+				<h3>How the Web Works</h3>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="http://www.youtube.com/embed/kzyfIiVZPJA" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<h3>HTML, CSS, Javascript</h3>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 page">
+
+					</div>
+					<div class="col-md-2 page-buttons">
+						<button id="html" type="button" class="btn btn-primary col-md-12">HTML</button>
+						<button id="css" type="button" class="btn btn-primary col-md-12">CSS</button>
+						<button id="js" type="button" class="btn btn-primary col-md-12">JavaScript</button>
+					</div>
+				</div>
+				<h1>HTML <i class="fa fa-html5"></i>- Hypertext MarkUp Language </h1>
+				<h4 class="instructions">HTML is the MarkUp for a WebPage. It is how things are ordered and placed on a page. HTML is written using tags which represent elements. </h4>
+				<h3>Elements written with Tags</h3>
+				<h2 class="examples">&lt;html&gt; ... &lt;/html&gt;</h2>
+				<!--Start of HTML-->
+				<h1>Let's Write Some HTML</h1>
+				<h4 class="instructions">Save a file in a text editor as home.html</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html"><span class="text-new">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	Hello World!
+&lt;/html&gt;</span></code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--Headers-->
+				<h1>Header Tags &lt;h1&gt;</h1>
+				<h1>&lt;h1&gt;</h1>
+				<h2>&lt;h2&gt;</h2>
+				<h3>&lt;h3&gt;</h3>
+				<h4>&lt;h4&gt;</h4>
+				<h5>&lt;h5&gt;</h5>
+				<h6>&lt;h6&gt;</h6>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	  <span class="text-new">&lt;h1&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;</span>
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--Paragraph Tags-->
+				<h1>Paragraphs Tags &lt;p&gt;</h1>
+				<h4 class="instructions">Notice line breaks in HTML are ignored</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;h1&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	<span class="text-new">&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the document.
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;</span>
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--<a> Tags -->
+				<h1>HyperLink Tags &lt;a&gt;</h1>
+				<h4 class="instructions">Uses attribute:</h4>
+				<h5 class="instructions">-More Information</h5>
+				<h5 class="instructions">-Always in start tag</h5>
+				<h5 class="instructions">-Comes in pair - name="value"</h5>
+				<h2 class="examples">&lt;html lang="en"&gt; ... &lt;/html&gt;</h2>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;h1&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the document.
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;
+	<span class="text-new">&lt;a href="http://www.designforamerica.com"&gt;Here's a link to the DFA Website&lt;/a&gt;</span>
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--Images -->
+				<h1>Images &lt;img&gt;</h1>
+				<h4 class="instructions">Only Tag without End Tag</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;h1&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the document.
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;
+	&lt;a href="http://www.designforamerica.com"&gt;Here's a link to the DFA Website&lt;/a&gt;
+	<span class="text-new">&lt;img src="http://designforamerica.com/wp-content/uploads/2011/10/DfA-Header.png"&gt;</span>
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--Nested Tags-->
+				<h1>Nested Tags</h1>
+				<h4 class="instructions">Make Link inside first paragraph and make Whole Second Paragraph Linkable</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;h1&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the <span class="text-new">&lt;a href="http://www.google.com"&gt;document.&lt;/a&gt;</span>
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	<span class="text-new">&lt;a href="www.facebook.com"&gt;</span>&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;<span class="text-new">&lt;/a&gt;</span>
+	&lt;a href="http://www.designforamerica.com"&gt;Here's a link to the DFA Website&lt;/a&gt;
+	&lt;img src="http://designforamerica.com/wp-content/uploads/2011/10/DfA-Header.png"&gt;
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<h4 class="instructions">Fix the Image and Link so by Clicking the Image you go to the DFA Website (No Text)</h4>
+				<!--Styling -CSS-->
+				<h1>CSS <i class="fa fa-css3"></i>- Cascading Style Sheets</h1>
+				<h4 class="instructions">Notice how it is so webpage is so dull and barren. Let's style directly on html.</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;h1 <span class="text-new">style="color:red"</span>&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the &lt;a href="http://www.google.com"&gt;document.&lt;/a&gt;
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;a href="www.facebook.com"&gt;&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;&lt;/a&gt;
+	&lt;a href="http://www.designforamerica.com"&gt;
+		&lt;img src="http://designforamerica.com/wp-content/uploads/2011/10/DfA-Header.png"&gt;
+	&lt;/a&gt;
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--CSS IDs-->
+				<h4 class="instructions">Let's style using a seperate css document. Make a file called home.css saved in the same folder as home.html</h4>
+				<h4 class="instructions">Head tag contains stylesheets, javascript library links, etc.</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	<span class="text-new">&lt;head&gt;
+		&lt;link href="home.css" rel="stylesheet"&gt;
+      &lt;/head&gt;</span>
+	&lt;h1 style="color:red"&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the &lt;a href="http://www.google.com"&gt;document.&lt;/a&gt;
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;a href="www.facebook.com"&gt;&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;&lt;/a&gt;
+	&lt;a href="http://www.designforamerica.com"&gt;
+		&lt;img src="http://designforamerica.com/wp-content/uploads/2011/10/DfA-Header.png"&gt;
+	&lt;/a&gt;
+&lt;/html&gt;</code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--IDs-->
+				<h4 class="instructions">This image is too small. Let's use an id attribute to change it's size</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;head&gt;
+		&lt;link href="home.css" rel="stylesheet"&gt;
+	&lt;/head&gt;
+	&lt;h1 style="color:red"&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the &lt;a href="http://www.google.com"&gt;document.&lt;/a&gt;
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;a href="www.facebook.com"&gt;&lt;p&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;&lt;/a&gt;
+	&lt;a href="http://www.designforamerica.com"&gt;
+		&lt;img <span class="text-new"> id="logo-dfa"</span> src="http://designforamerica.com/wp-content/uploads/2011/10/DfA-Header.png"&gt;
+	&lt;/a&gt;
+&lt;/html&gt;</code></pre>
+<pre><code class="language-html" data-lang="html"><span class="text-new">#logo-dfa{
+	width:1200px;
+	height:200px;
+}</span></code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--Classes-->
+				<h4 class="instructions">Let's make the font of each paragraph bigger using classes.</h4>
+				<div class="row">
+					<div class="col-md-11 code-text">
+<pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+	&lt;head&gt;
+		&lt;link href="home.css" rel="stylesheet"&gt;
+	&lt;/head&gt;
+	&lt;h1 style="color:red"&gt;Sameer's Website&lt;/h1&gt;
+	&lt;h4&gt;My Design Portfolio&lt;/h4&gt;
+	&lt;p <span class="text-new">class="font-big"</span>&gt;
+		This is a test paragraph.
+		Notice that this is on the same line in the &lt;a href="http://www.google.com"&gt;document.&lt;/a&gt;
+		Type whatever you want in here. Blah Blah Blah
+		Blah Blah Blah Blah Blah Blah Blah
+	&lt;/p&gt;
+	&lt;a href="www.facebook.com"&gt;&lt;p <span class="text-new">class="font-big"</span>&gt;
+		This is another test paragraph.
+		Write whatever you want in here. Here are some lyrics:
+		I stole your diamonds and gold
+		what are you going to do
+		I stole your diamonds and gold
+		whatever are you going to do about it (do about it)
+	&lt;/p&gt;&lt;/a&gt;
+	&lt;a href="http://www.designforamerica.com"&gt;
+		&lt;img id="logo-dfa" src="http://designforamerica.com/wp-content/uploads/2011/10/DfA-Header.png"&gt;
+	&lt;/a&gt;
+&lt;/html&gt;</code></pre>
+<pre><code class="language-html" data-lang="html">#logo-dfa{
+	width:1200px;
+	height:200px;
+}
+<span class="text-new">.font-big{
+	font-size:40px;
+}</span></code></pre>
+					</div>
+					<div class="col-md-1 code-arrow">
+						<a href="home.html"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+					</div>
+				</div>
+				<!--Good Resources-->
+				<!-- End -->
+			</div>
+		</div>
+	</div>
+	<!--Javascript-->
+	<!-- Bootstrap core JavaScript-->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script
+	<!--My Javascript -->
+	<script src="workshop.js"></script>
+	<script type="text/javaScript">
+		workshop.init();
+	</script>
+</body>
+</html>
